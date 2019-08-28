@@ -170,7 +170,7 @@ ul.dropdown-menu {
 }
 ul.top-links.social {
     float: right;
-    margin-top: 15px;
+    margin-top: -30px;
 }
 ul.top-links.social li {
     display: inline-block;
@@ -212,6 +212,7 @@ ul.top-links.social li {
     -o-background-size: 2px;
     -ms-background-size: 2px;
 }
+
 .w3l-info {
 	text-align: center;
 }
