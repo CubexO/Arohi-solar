@@ -56,7 +56,11 @@ a:focus, a:hover {
 	outline: none;
 }
 /*-- //Reset-Code --*/
-
+.contact_res{
+	color: white; 
+	margin-left: 22px;
+	font-size: 20px;
+}
 
 /*-- nav --*/
 .navbar-default {
@@ -170,7 +174,7 @@ ul.dropdown-menu {
 }
 ul.top-links.social {
     float: right;
-    margin-top: 15px;
+    margin-top: -30px;
 }
 ul.top-links.social li {
     display: inline-block;
@@ -197,7 +201,7 @@ ul.top-links.social li {
 }
 /*-- //nav --*/
 .w3l-banner {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(../images/solarroof.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -212,6 +216,7 @@ ul.top-links.social li {
     -o-background-size: 2px;
     -ms-background-size: 2px;
 }
+
 .w3l-info {
 	text-align: center;
 }
@@ -588,6 +593,17 @@ i.fa.fa-bolt, i.fa.fa-comment, i.fa.fa-globe,i.fa.fa-lightbulb-o,i.fa.fa-thumbs-
     font-weight: 600;
 }
 /* Common style */
+.product_button_ui{
+	width: 11%;
+	border: 2px solid white;
+	background: transparent;
+	border-radius: 0px;
+	color: white;
+}
+.w3ls_mores:hover{
+	color: #000; 
+}
+
 .grid figure {
   position: relative;
   float: left;
@@ -733,6 +749,8 @@ h4.tittle {
 	text-transform:uppercase;
 }
 /*--//featured-section--*
+
+
 /*-- social-icons --*/
 .team ul.top-links li {
     margin-left: 5px;
@@ -1084,6 +1102,9 @@ h4.text {
     bottom: 5%;
     left: 42%;
 
+}
+.margin_eage{
+	margin-right: 12px;
 }
 .test-review p img {
     margin: 0 10px!important;
@@ -1491,6 +1512,11 @@ div#blog {
 	.flexslider-info {
 		margin: 7em 0em 5em;
 	}
+	.contact_res{
+		color: white; 
+		margin-left: 22px;
+		font-size: 17px;
+	}
 	.flex-control-nav {
 		right: 45%;
 		bottom: -10%;
@@ -1513,6 +1539,7 @@ div#blog {
 		padding: 3em 0 0em;
 	}
 }
+
 @media (max-width:480px) {
 	.abouttopleft h3, .aboutbottomright h3 {
 		font-size: 20px;
@@ -1537,12 +1564,13 @@ div#blog {
 	.second-effect .mask h6 {
 		padding: 5.5em 0 0em;
 	}
-}
+	
 @media (max-width:440px) {
 	.grid figure figcaption {
 		padding: 2em 0em;
 	}
 }
+
 @media (max-width:414px) {
 	.navbar-brand {
 		font-size: 30px;
@@ -1646,4 +1674,13 @@ div#blog {
 		padding-top: 45%;
 	}
 }
+/* --- media Q for reverse grid----- */
+@media (max-width: 991px){
+	.row_reverse{
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column-reverse;
+	}
+  }
+  
 /*-- //responsive design --*/
