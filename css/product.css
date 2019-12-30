@@ -1,0 +1,28 @@
+.product_icon_img{
+    width: 80px;
+}
+.product_BG_img{
+    background-image: url(../images/background_for_product.png);
+    background-color: #CDCAC5;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed;*/
+     width: 100%;
+     height: auto;
+}
+.product_slide_img{
+    height: 300px;
+}
+.product_punch_line{
+    color: black;
+} 
+.forpc_pro_btn_aria{
+    display: none;
+}
+.bottom_margin{
+    height: 80px;
+}
+.top_margin_product{
+    height: 60px;
+}

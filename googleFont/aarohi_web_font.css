@@ -1,0 +1,54 @@
+                        /*     IMPORT GOOGLE FONT */
+
+
+/* font for all page heading */
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+
+.page_heading{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color: white;
+}
+ /* FONT FOR HOME PAGE */
+
+@import url(https://fonts.googleapis.com/css?family=Vidaloka&display=swap);
+.nav_bar_font{
+ font-family: 'Vidaloka', serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Patua+One&display=swap);
+.home_btn_font{
+    font-family: 'Patua One', cursive;
+}
+
+
+  /**/
+
+  /* FONT FOR PRODUCT PAGE */
+@import url(https://fonts.googleapis.com/css?family=Public+Sans&display=swap);
+.product_punch_line{
+    font-family: 'Patua One', cursive;
+}
+  /**/
+
+   /* FONT FOR PORTFOLIO PAGE */
+ @import url(https://fonts.googleapis.com/css?family=Acme&display=swap);
+.port_grid_card {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+ @import url(https://fonts.googleapis.com/css?family=EB+Garamond&display=swap);
+.port_grid_card_sub_text{
+font-family: 'EB Garamond', serif;
+ font-size: 20px;
+}
+
+  /**/
+
+  /* FONT FOR ABOUT US PAGE */
+
+  /**/
+
+  /* FONT FOR CONTACT PAGE */
+
+  /**/

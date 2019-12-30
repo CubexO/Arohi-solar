@@ -1,0 +1,158 @@
+#loading{
+  width: 100%;
+  height: 100%;
+  background: #ffffff url("../images/aarohsol.gif");
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  position: fixed;
+  z-index: 9999;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**/
+.home_active_list{
+    color: yellow;
+}
+.all_nav_list{
+    color: white;
+}
+.all_nav_list_changed{
+    color: black;
+}
+.navbar_color_control{
+  background:transparent;
+}
+.navbar_color_changed{
+  background:#E7EBDD;
+}
+.ul_control{
+    margin-top: 10px;
+}
+.index_img{
+    background-image:url(../images/1920_siliconsolarfarm-111062.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    width: 100%;
+    height: 100vh;
+}
+.overlay {
+    position: absolute;
+    height: 100vh;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+/* Carousel image */
+
+  /* bg font */
+  .index_bg_font{
+      font-size: 75px;
+      color: white;
+      font-family: 'Abril Fatface', cursive;
+  }
+ .index_bg_sub_font{
+     font-size: 60px;
+ }
+ p{
+     color: white;
+     font-size: 20px;
+ }
+ 
+ .custom_control{
+     border: 1px solid red;
+ }
+/*CSS3 STROKE EFFECT*/
+
+#mainNav ul li {
+  display: inline-block;
+	display:inline;
+}
+#mainNav ul li a {
+  text-decoration: none;
+}
+#mainNav ul li a,
+#mainNav ul li a:after,
+#mainNav ul li a:before {
+  transition: all .5s;
+}
+#mainNav ul li a:hover {
+  color:#E34F25;
+}
+
+/* stroke */
+#mainNav.stroke ul li a
+{
+  position: relative;
+}
+#mainNav.stroke ul li a:after,
+#mainNav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 2px;
+}
+#mainNav.stroke ul li a:hover:after {
+  width: 100%;
+}
+/**/
+#mainNav ul li a {
+  transition: all 1s;
+}
+
+#mainNav ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+#mainNav ul li a:hover {
+  color: #FF7E00;
+  z-index: 1;
+}
+#mainNav ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  opacity: 1;
+}
+.home_sub_text{
+    font-size: 20px;
+}
+.logo_control{
+  width: 150px;
+   height: 80px;
+   margin-left: 45px;
+}
+/*             footer  */
+.footer_link{
+    color: black;
+}
+.footer_table_heading{
+    color: black;
+}
+.margin_control{
+  height: 140px;
+}
+.home_btn_font{
+  font-size: 11px;
+  font-family: sans-serif;
+}
+.front_page_text{
+  margin-left: 40px;
+}

@@ -1,0 +1,56 @@
+/* media Q css */
+
+@media screen and (max-width: 600px) {
+    .logo_for_pro{
+        display: none;
+    }     
+}
+@media screen and (max-width: 414px) {
+    .logo_for_pro{
+        display: none;
+    }
+    .heading_product_list {
+        font-size: 28px;
+      }
+      .each_product_name {
+        font-size: 21px;
+      }
+}
+@media screen and (max-width: 411px) {
+    .logo_for_pro{
+        display: none;
+    } 
+}
+@media screen and (max-width: 375px) {
+    .logo_for_pro{
+        display: none;
+    }
+    .heading_product_list {
+        font-size: 25px;
+      }
+      .each_product_name {
+        font-size: 19px;
+      }
+}
+@media screen and (max-width: 360px) {
+    .logo_for_pro{
+        display: none;
+    }
+    .heading_product_list {
+        font-size: 23px;
+      }
+      .each_product_name {
+        font-size: 19px;
+      }
+}
+@media screen and (max-width: 320px) {
+.logo_for_pro{
+    display: none;
+}
+.heading_product_list {
+    font-size: 20px;
+  }
+  .each_product_name {
+    font-size: 16px;
+  }
+}

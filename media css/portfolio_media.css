@@ -1,0 +1,276 @@
+/* media Q css */
+
+@media screen and (max-width: 767px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      } 
+}
+
+@media screen and (max-width: 1024px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}
+@media screen and (max-width: 800px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}
+@media screen and (max-width: 768px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+      .portfolio_down_margin{
+        height: 30px;
+      } 
+      
+}
+@media screen and (max-width: 414px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}
+@media screen and (max-width: 411px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}
+@media screen and (max-width: 375px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}
+@media screen and (max-width: 360px) {
+    .top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}
+@media screen and (max-width: 320px) {
+.top_portfolio_margin{
+        height: 5px;
+      }
+      .portfolio_note_aarohi{
+        font-size: 25px;
+      }
+      .portfolio_text_note_aarohi{
+        font-size: 14px;
+      } 
+      .portfolio_grid_railway{
+          width: 100%;
+          height:200px; 
+      } 
+      .port_grid_overlay_font{
+        font-size: 22px;
+    }  
+    .port_grid_overlay_sub_font{
+        font-size: 9px;
+    } 
+    .portfolio_grid_home{
+        height:150px; 
+        border: 10px solid white;
+      }
+      .portfolio_down_margin{
+        height: 0px;
+      } 
+      .portfolio_grid_home{
+          height:150px;
+      }
+}

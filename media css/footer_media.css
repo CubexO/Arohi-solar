@@ -1,0 +1,71 @@
+
+/* media Q css */
+
+@media screen and (max-width: 414px) {
+    .footer_link_icon{
+        width: 40px;
+    }
+    .footer_heading{
+       font-size: 20px;
+     }
+     .Rights_text{
+        font-size: 17px;
+    }
+    .footer_table_heading{
+      font-size: 15px;
+    }
+    .footer_link{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .footer_link_icon{
+        width: 30px;
+    }
+    .footer_heading{
+       font-size: 17px;
+     }
+     .Rights_text{
+        font-size: 15px;
+    }
+    .footer_table_heading{
+      font-size: 15px;
+    }
+    .footer_link{
+        font-size: 13px;
+    } 
+}
+@media screen and (max-width: 360px) {
+    .footer_link_icon{
+        width: 30px;
+    }
+    .footer_heading{
+       font-size: 16px;
+     }
+     .Rights_text{
+        font-size: 15px;
+    }
+    .footer_table_heading{
+      font-size: 15px;
+    }
+    .footer_link{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer_link_icon{
+        width: 21px;
+    }
+    .footer_heading{
+       font-size: 12px;
+     }
+     .Rights_text{
+        font-size: 12px;
+    }
+    .footer_table_heading{
+      font-size: 12px;
+    }
+    .footer_link{
+        font-size: 10px;
+    }
+}

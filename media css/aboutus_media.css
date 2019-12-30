@@ -1,0 +1,80 @@
+/* media Q css */
+
+
+@media screen and (max-width: 600px) {
+    .about_us_grid_img{
+        background: #FED710;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        width: 100%;
+        height: auto;
+        border: 10px solid transparent;
+   }
+   .about_btn{
+    border: 3px solid white;      
+}
+.aboutus_bottom_margin{
+    height: 0px;  
+}
+}
+
+@media screen and (max-width: 414px) {
+    .about_us_grid_img{
+        background: #FED710;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        width: 100%;
+        height: auto;
+        border: 10px solid transparent;
+   }
+   .about_btn{
+    border: 3px solid white;      
+}
+.aboutus_bottom_margin{
+    height: 0px;  
+}
+}
+@media screen and (max-width: 360px) {
+    .about_us_grid_img{
+        background: #FED710;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        width: 100%;
+        height: auto;
+        border: 10px solid transparent;
+   }
+   .about_btn{
+    border: 3px solid white;      
+}
+.aboutus_bottom_margin{
+    height: 0px;  
+}
+}
+@media screen and (max-width: 320px) {
+    .about_us_tagline{
+        color:white;
+        font-size: 14px;
+    }
+    .about_us_grid_img{
+         background: #FED710;
+         background-size: cover;
+         background-position: center center;
+         background-repeat: no-repeat;
+         /*background-attachment: fixed;*/
+         width: 100%;
+         height: auto;
+         border: 10px solid transparent;
+    }
+    .about_btn{
+        border: 3px solid white;      
+    }
+    .aboutus_bottom_margin{
+        height: 0px;  
+    }
+}

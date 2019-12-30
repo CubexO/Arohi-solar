@@ -1,0 +1,53 @@
+/*page 4 */
+
+
+.about_us_bg{
+    background-image: url(../images/forabout.png);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed;*/
+     width: 100%;
+     height: auto;
+    }
+/* about us page*/
+.about_us_col_img{
+    background-image: url(https://www.bestfunforall.com/freepik1/imgs/Solar%20panels%20on%20the%20water%20Wallpapers%203.jpg);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed;*/
+     width: 100%;
+     height: 300px;
+     border: 10px solid white;
+}
+.aboutus_font_heading{
+    font-size: 50px;
+}
+.about_us_grid_img{
+    background-image: url(../images/about_us_img.jpg);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed;*/
+     width: 100%;
+     height: auto;
+     border: 10px solid white;
+}
+.aboutus_top_margin{
+    height: 100px;  
+}
+.aboutus_bottom_margin{
+    height: 100px;  
+}
+.about_us_tagline{
+    color:white;
+}
+.about_heading_text{
+    font-size: 17px;
+    font-family: 'Acme', sans-serif;
+}
+.about_sub_text{
+    font-size: 16px;
+    font-family: 'Courgette', cursive;
+}

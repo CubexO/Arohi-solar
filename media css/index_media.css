@@ -1,0 +1,382 @@
+/* media Q css */
+
+  @media screen and (max-width: 767px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      }
+      .index_bg_font{
+        font-size: 70px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    .home_sub_text{
+        font-size: 18px;
+    }  
+    .index_img{
+        height: 60vh;
+    } 
+    .overlay {
+        height: 60vh;  
+      } 
+      #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }     
+}
+@media screen and (max-width: 700px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      } 
+    .index_img{
+        height: 50vh;
+    } 
+    .overlay {
+        height: 50vh;  
+      }
+      .margin_control{
+        height: 70px;
+      }         
+}
+@media screen and (max-width: 650px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      }
+      .index_bg_font{
+        font-size: 60px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    .home_sub_text{
+        font-size: 15px;
+    }  
+    .margin_control{
+        height: 130px;
+      } 
+      #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff url("../images/GIF-191229_124826.gif");
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }
+}  
+
+@media screen and (max-width: 600px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      }
+      .index_bg_font{
+        font-size: 50px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    .home_sub_text{
+        font-size: 13px;
+    }  
+    .index_img{
+        height: 40vh;
+    } 
+    .overlay {
+        height: 40vh;  
+      } 
+      .margin_control{
+        height: 130px;
+      }  
+      .loading_img {
+        margin-top: 200px;
+      }
+      #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff url("../images/GIF-191229_124826.gif");
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }
+}  
+@media screen and (max-width: 550px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      }
+      .index_bg_font{
+        font-size: 45px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }  
+      .margin_control{
+        height: 120px;
+      }  
+      #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff url("../images/GIF-191229_124826.gif");
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      }
+      .index_bg_font{
+        font-size: 40px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }  
+      .margin_control{
+        height: 120px;
+      } 
+      .home_sub_text{
+        font-size: 13px;
+    }  
+      .index_img{
+        height: 60vh;
+    } 
+    .overlay {
+        height: 60vh;  
+      } 
+      .margin_control{
+        height: 100px;
+      }
+      .home_btn_font{
+        font-size: 20px;
+      }
+      #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff url("../images/GIF-191229_124826.gif");
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }
+}
+@media screen and (max-width: 1024px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+      }
+      .margin_control{
+        height: 140px;
+      }
+      .index_img{
+        height: 55vh;
+    } 
+    .overlay {
+        height: 55vh;  
+      } 
+}
+@media screen and (max-width: 800px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+         margin-left: 0px;
+      }
+      .index_bg_font{
+        font-size: 55px;
+    }  
+    .index_img{
+        height: 50vh;
+    } 
+    .overlay {
+        height: 50vh;  
+      }    
+}
+@media screen and (max-width: 768px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+         margin-left: 0px;
+      }
+      .index_bg_font{
+        font-size: 45px;
+    }   
+      .home_sub_text{
+        font-size: 18px;
+    }  
+    .index_img{
+        height: 65vh;
+    } 
+    .overlay {
+        height: 65vh;  
+      }  
+         
+}
+@media screen and (max-width: 414px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+         margin-left: 0px;
+      }
+      .margin_control{
+        height: 100px;
+      } 
+      .index_bg_font{
+        font-size: 40px;
+    }   
+      .home_sub_text{
+        font-size: 15px;
+    } 
+    .front_page_text{
+        margin-left: 0px;
+      }
+      .index_img{
+        height: 65vh;
+    } 
+    .overlay {
+        height: 65vh;  
+      }   
+      .page_heading{
+        font-size: 37px; 
+       }
+       .loading_img {
+        margin-top: 200px;
+      }  
+      #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff url("../images/GIF-191229_124826.gif");
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }
+}
+@media screen and (max-width: 375px) {
+    .logo_control{
+        width: 140px;
+         height: 70px;
+         margin-left: 0px;
+      }
+      .index_bg_font{
+        font-size: 35px;
+    }   
+      .home_sub_text{
+        font-size: 11px;
+    } 
+    .index_img{
+        height: 65vh;
+    } 
+    .front_page_text{
+        margin-left: 0px;
+      }
+    .overlay {
+        height: 65vh;  
+      } 
+      .page_heading{
+        font-size: 31px; 
+       } 
+       #loading{
+        width: 100%;
+        height: 100%;
+        background: #ffffff url("../images/GIF-191229_124826.gif");
+          background-position: center center;
+          background-repeat: no-repeat;
+        position: fixed;
+        z-index: 9999;
+      }      
+}
+@media screen and (max-width: 360px) {
+    .logo_control{
+        width: 100px;
+         height: 60px;
+         margin-left: 0px;
+      }
+      .index_bg_font{
+        font-size: 33px;
+    }   
+      .home_sub_text{
+        font-size: 11px;
+    } 
+    .margin_control{
+        height: 80px;
+      }
+      .index_img{
+        height: 60vh;
+    } 
+    .front_page_text{
+        margin-left: 0px;
+      }
+    .overlay {
+        height: 60vh;  
+      } 
+      .page_heading{
+        font-size: 30px; 
+       } 
+       .loading_img {
+        margin-top: 200px;
+      } 
+      #loading{
+        width: 100%;
+      height: 100%;
+      background: #ffffff url("../images/GIF-191229_124826.gif");
+        background-position: center center;
+        background-repeat: no-repeat;
+      position: fixed;
+      z-index: 9999;
+      }    
+}
+@media screen and (max-width: 320px) {
+    .logo_control{
+        width: 100px;
+         height: 60px;
+         margin-left: 0px;
+      }
+      .index_bg_font{
+        font-size: 30px;
+    }   
+      .home_sub_text{
+        font-size: 11px;
+    } 
+    .front_page_text{
+        margin-left: 0px;
+      }
+    .index_img{
+        height: 70vh;
+    } 
+    .overlay {
+        height: 70vh;  
+      } 
+    .page_heading{
+     font-size: 25px; 
+    } 
+    #loading{
+      width: 100%;
+      height: 100%;
+      background: #ffffff url("../images/GIF-191229_124826.gif");
+        background-position: center center;
+        background-repeat: no-repeat;
+      position: fixed;
+      z-index: 9999;
+    }
+
+}
+
+/* home page */
+
+/* OUR PRODUCTS */
+
+/* PORTFOLIO */
+
+/* ABOUT US */
+
+/* CONTACT US */
+
+/* footer */

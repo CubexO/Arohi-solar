@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AAROHI SOLAR | location</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <!-- google font  -->
+    <!-- font for bg index text -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!--  -->
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  -->
+<!--    google font card port -->
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <!--port sub-->
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<!---->
+<!--    google font contact -->
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+<!--    -->
+<!-- google font contact -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+<!--    -->
+    <!-- all css link -->
+                 <!-- google font -->
+    <link rel="stylesheet" href="googleFont/aarohi_web_font.css">
+
+
+                 <!-- index css -->
+    <link rel="stylesheet" href="css/index.css">
+                <!-- product css-->
+     <link rel="stylesheet" href="css/product.css">
+                 <!-- portfolio css-->
+     <link rel="stylesheet" href="css/portfolio.css">
+                   <!-- about us-->
+    <link rel="stylesheet" href="css/about_us.css">
+                  <!-- contact-->
+    <link rel="stylesheet" href="css/contact.css">
+                  <!-- footer -->
+    <link rel="stylesheet" href="css/footer.css">
+
+                 <!-- media query responsive css  -->
+  <link rel="stylesheet" href="media css/index_media.css">  
+
+  <link rel="stylesheet" href="media css/product_media.css">  
+
+  <link rel="stylesheet" href="media css/portfolio_media.css">
+  
+  <link rel="stylesheet" href="media css/aboutus_media.css"> 
+
+  <link rel="stylesheet" href="media css/contact_media.css"> 
+
+  <link rel="stylesheet" href="media css/footer_media.css"> 
+                       <!--  -->
+
+                <!-- bootstrap 4 link & js  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                      <!--  -->
+</head>
+   <style>
+       #loading{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF url("./images/locate.gif") no-repeat center ;
+    position: fixed;
+    z-index: 9999;
+} 
+      .location{
+          text-transform: uppercase;
+      }
+      .map_aria{
+          border: 10px solid white;
+      }
+   </style>
+<body onload="setTimeout(loaderFunction, 1500)">
+ 
+    <div id="loading">
+   
+    </div>
+     
+     <div class="container-fluid map_aria p-0">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58896.82197365218!2d75.83873871717677!3d22.689131403308046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd1deb039565%3A0x954480b85d048d36!2sAarohi+Solars!5e0!3m2!1sen!2sin!4v1565443914436!5m2!1sen!2sin" width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <script>
+        var loadingvar =document.getElementById('loading');
+        function loaderFunction(){
+          loadingvar.style.display = 'none';
+        }
+      </script>
+</body>
+
+</html>

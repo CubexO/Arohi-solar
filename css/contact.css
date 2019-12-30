@@ -1,0 +1,58 @@
+/* CONTACT US PAGE */
+.contact_bg_img{
+    background-image: url(http://www.photoplato.com/photoplato/23546-amber-color-wallpaper_73914.jpg);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed;*/
+     width: 100%;
+     height: auto;
+    }
+/*.CONTACT_US_BG_IMG{*/
+/*  -webkit-clip-path: polygon(0 0, 100% 0, 100% 48%, 0 76%);*/
+/*clip-path: polygon(0 0, 100% 0, 100% 48%, 0 76%);*/
+/*    }*/
+/*.CONTACT_US_gird_heading_text{*/
+/*    font-size: 30px;*/
+/*}*/
+/*.CONTACT_US_gird_subtext{*/
+/*    font-size: 20px;*/
+/*}*/
+.contact_grid_icon{
+    position: absolute;
+    top:-30px;
+    left: 140px;
+}
+.contact_icon{
+    width: 100px;
+}
+.contact_bg_card{
+    /*background-image: url(http://www.photoplato.com/photoplato/23546-amber-color-wallpaper_73914.jpg);*/
+    background-color: #CDCAC5;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     /*background-attachment: fixed;*/
+     width: 100%;
+     height: auto;
+     -webkit-box-shadow: 10px 10px 25px 3px rgba(0,0,0,0.55);
+-moz-box-shadow: 10px 10px 25px 3px rgba(0,0,0,0.55);
+box-shadow: 10px 10px 25px 3px rgba(0,0,0,0.55);
+}
+.contact_card_font_heading{
+font-family: 'Alatsi', sans-serif;
+text-transform: uppercase;
+}
+.contact_card_font_sub{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contactus_top_margin{
+    height: 100px;
+}
+.contact_tagline{
+   color: white;    
+}
+.contactus_down_margin{
+    height: 40px;
+}
