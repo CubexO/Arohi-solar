@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="css/contact.css">
                   <!-- footer -->
     <link rel="stylesheet" href="css/footer.css">
+                 <!-- full screen overlay -->
+    <link rel="stylesheet" href="css/overlay_nav.css">
 
                  <!-- media query responsive css  -->
   <link rel="stylesheet" href="media css/index_media.css">  
@@ -68,7 +70,8 @@
 
 <body onload="setTimeout(loaderFunction, 2000)">
    <!-- pre laoding section-->
-  <div id="loading"> 
+  <div id="loading">
+   
   </div>
 <!--
     <!------------------------------------------->
@@ -81,8 +84,8 @@
             <a class="navbar-brand" href="#"><img src="images/logotest3.png" class="logo_control"></a>
 
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" style="border:2px solid white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+                <!--  -->
+                <span class="nav_open_btn mr-2" onclick="openNav()"><i class="fa fa-bars" style="color: white; font-size: 40px;"></i></span>
             </button>
 
             <!-- Navbar links -->
@@ -111,25 +114,25 @@
         </nav>
         <!-- background image  -->
     <div class="container-fluid index_img ">
-    </div>
-    <div class="container-fluid overlay">
-    <div class="container-fluid margin_control"></div>
+      <div class="container-fluid margin_control"></div>
        <div class="row">
            <div class="col-md-8 d-flex justify-content-start align-items-center">
             <span class="front_page_text">
                 <h1 class="index_bg_font">WELCOME TO AAROHI SOLAR ENERGY</h1>
-               <p class="pt-3 home_sub_text">We Are Delivering Best Solar Solution For You, No Matter If You Want To Power The Home, Business Or A Commercial Place. We Are Always Happy To Provide You With The Best Solution.</p>
+               <p class="pt-3 home_sub_text">We Deliver The Best Solar Solution For You, No Matter If You Want To Power The Home, Business Or A Commercial Place. We Are Always Happy To Provide You With The Best Solution.</p>
+
                <a href="#contact_us">
-               <button class="btn btn-outline-warning home_btn mt-3" style="border: 2px solid orange; border-radius: 0px;"><h5>CONTACT US</h5></button>
+               <button class="btn btn-outline-warning home_btn_font mt-3" style="border: 2px solid orange; border-radius: 0px;"><h5>CONTACT US</h5></button>
               </a>
+              
               </span>
            </div>
            <div class="col-md-4 d-flex ">
 
            </div>
        </div>
+       <div class="container-fluid margin_control"></div>
     </div>
-
     </div>
     <!------------------------------------------->
                    <!--PRODUCTS-->
@@ -255,7 +258,7 @@
               <div class="container-fluid d-flex justify-content-center align-items-center" style="height: auto; border: 10px solid white; background:#CDCAC5;">
                   <div class="container-fluid p-4">
                   <h2 class="portfolio_note_aarohi">AAROHI SOLAR </h2>
-                  <h5 class="text-justify portfolio_text_note_aarohi" >We Are Delivering Best Solar Solution For You, No Matter If You Want To Power The Home, Business Or A Commercial Place. We Are Always Happy To Provide You With The Best Solution.</h5>
+                  <h5 class="text-justify portfolio_text_note_aarohi" >We Deliver The Best Solar Solution For You, No Matter If You Want To Power The Home, Business Or A Commercial Place. We Are Always Happy To Provide You With The Best Solution.</h5>
                   <a href="#about">
                   <button class="btn btn-danger btn-lg mt-3" style="border-radius: 0px;">Eplorer Now</button>
                 </a>
@@ -406,9 +409,9 @@
   <div class="row">
       <div class="col-md-4 p-3">
         <div class="container-fluid contact_bg_card" style="height: auto; border: 10px solid white; ">
-            <div class="container-fluid text-center" style="height: 60px;">
-                <img src="images/location_icon.png" class="contact_grid_icon contact_icon" alt="">
-            </div>
+          <div class="container-fluid p-3">
+                <img src="images/location_icon.png" class="contact_icon mx-auto d-block" alt="">
+          </div>
             <h4 class="text-center contact_card_font_heading">location</h4>
             <h6 class="text-center contact_card_font_sub mt-4">182, RNT Marg, Idgah Compound, Chhawni, Indore, Madhya Pradesh 452001</h6>
                     <!-- btn   -->
@@ -423,9 +426,11 @@
       </div>
       <div class="col-md-4 p-3">
        <div class="container-fluid contact_bg_card" style="height: auto; border: 10px solid white;">
-              <div class="container-fluid text-center" style="height: 60px;">
-                  <img src="images/phone.png" class="contact_grid_icon contact_icon" alt="">
-              </div>
+
+        <div class="container-fluid p-3">
+          <img src="images/phone.png" class="contact_grid_icon contact_icon mx-auto d-block" alt="">
+        </div>
+        
             <h4 class="text-center contact_card_font_heading">contact</h4>
            <h6 class="text-center contact_card_font_sub mt-4">Kapil Mangal : 9827040844</h6>
             <h6 class="text-center contact_card_font_sub">Shivam goyal : 8871434582</h6>
@@ -434,14 +439,15 @@
             <a class="btn btn-primary btn-md mt-3" href="tel:8871434582" target="_blank">Call Now</a>
                 <div class="container-fluid" style="height: 50px;"></div>
             </div>
-                    <!--     -->
+        <!--     -->
         </div>
       </div>
       <div class="col-md-4 p-3">
        <div class="container-fluid contact_bg_card" style="height: auto; border: 10px solid white;">
-           <div class="container-fluid text-center" style="height: 60px;">
-               <img src="images/mail-red_icon.png" class="contact_grid_icon contact_icon" alt="">
-           </div>
+
+        <div class="container-fluid p-3">
+          <img src="images/mail-red_icon.png" class="mx-auto d-block contact_icon" alt="">
+        </div> 
             <h4 class="text-center contact_card_font_heading">message</h4>
            <h6 class="text-center mt-4 contact_card_font_sub">Mail : Aarohisolars@Gmail.Com</h6>
            <h6 class="text-center contact_card_font_sub">facebook : Aarohisolars</h6>
@@ -464,31 +470,33 @@
 <div class="container-fluid d-flex justify-content-center align-items-center" style="height: auto;">
     <span>
       <h3 class="footer_heading p-4">FOLLOW DROP ON SOCIAL MEDIA</h3>
-     <h3 class="text-center">
-       <a 
-               
-       href="https://www.facebook.com/Aarohi-Solars-918446058499901/?ref=search&__tn__=%2Cd%2CP-R&eid=ARDJ_omhyXIEPuJERAjJgLFUeZToqQFVTHflxiEi3U18-nPvpjP7T-y_BHrlf55zT1DE5a-4O3BzlGC5" 
-
-       target="_blank" rel="noopener noreferrer">
-         <img src="images/facebook_circle-512.png" class="footer_link_icon" alt="">
-      </a>
-
-      <a href="http://" target="_blank" rel="noopener noreferrer">
-         <img src="images/twitter-old.png" class="footer_link_icon ml-4" alt="">
-        </a>
-        
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-         <img src="images/LinkedIn (1).png" class="footer_link_icon ml-4"  alt="">
-        </a> 
-
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-         <img src="images/instagram-512.png" class="footer_link_icon ml-4"  alt="">
-        </a>
-
-        <a target="_blank" href="https://wa.me/+91 8871434582">
-         <img src="images/whatsapp-512.png" class="footer_link_icon ml-4"  alt="">
-        </a>
-     </h3>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <a          
+            href="https://www.facebook.com/Aarohi-Solars-918446058499901/?ref=search&__tn__=%2Cd%2CP-R&eid=ARDJ_omhyXIEPuJERAjJgLFUeZToqQFVTHflxiEi3U18-nPvpjP7T-y_BHrlf55zT1DE5a-4O3BzlGC5" 
+     
+            target="_blank" rel="noopener noreferrer">
+              <img src="images/facebook_circle-512.png" class="footer_link_icon" alt="">
+           </a>
+          </div>
+          <div class="col-3">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="images/twitter-old.png" class="footer_link_icon" alt="">
+             </a>
+          </div>
+          <div class="col-3">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="images/LinkedIn (1).png" class="footer_link_icon"  alt="">
+             </a>    
+          </div>
+          <div class="col-3"> 
+            <a target="_blank" href="https://wa.me/+91 8871434582">
+              <img src="images/whatsapp-512.png" class="footer_link_icon"  alt="">
+             </a>
+          </div>
+        </div>
+      </div>
     </span>
 </div>
     <hr class="" style="width: 100%; border: 1px solid gray();">
@@ -540,15 +548,15 @@
             <table class="table table-borderless" style="background-color: transparent;">
        <thead>
          <tr>
-           <th class="footer_table_heading ">AWARDS</th>
+           <th class="footer_table_heading ">PROJECT</th>
          </tr>
        </thead>
        <tbody>
          <tr>
-           <td><a class="footer_link text-decoration-none" href="#">LOREM</a></td>
+           <td><a class="footer_link text-decoration-none" href="#">Industrial</a></td>
          </tr>
          <tr>
-           <td><a class="footer_link text-decoration-none" href="#">LOREM</a></td>
+           <td><a class="footer_link text-decoration-none" href="#">Commercial</a></td>
          </tr>
        </tbody>
      </table>
@@ -583,7 +591,22 @@
 <div class="container-fluid d-flex justify-content-center align-items-center p-3" style="background:#CDCAC5; border: 10px solid white; border-top: none;">
  <h5 class="Rights_text">© 2019 Solar Energy. All Rights Reserved | By Aarohi Solar</h5>
 </div>
-</bodyonload="setTimeout(loaderFunction, 1500)">
+<!------------------------------------------------------------->
+                <!----full screen overlay-->
+<!------------------------------------------------------------->
+<div id="myNav" class="overlay">
+  
+  <div class="overlay-content">
+    <a class="full_nav_text" href="#home">HOME</a>
+    <a class="full_nav_text" href="#PRODUCTS">PRODUCT</a>
+    <a class="full_nav_text" href="#portfolio">PORTFOLIO</a>
+    <a class="full_nav_text" href="#about">ABOUT US</a>
+    <a class="full_nav_text" href="#contact_us">CONTACT US</a>
+    <a class="full_nav_text" href="javascript:void(0)" class="" onclick="closeNav()">&times;</a>
+  </div>
+</div>
+
+</body>
 <script>
     $(document).ready(function(){
   $(window).scroll(function(){
@@ -649,4 +672,14 @@
 <script>
   AOS.init();
 </script>
+<!-- for full screen overlay-->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
 </html>

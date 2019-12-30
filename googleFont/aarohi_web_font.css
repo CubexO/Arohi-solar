@@ -11,23 +11,23 @@
 }
  /* FONT FOR HOME PAGE */
 
-@import url(https://fonts.googleapis.com/css?family=Vidaloka&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rubik&display=swap);
 .nav_bar_font{
- font-family: 'Vidaloka', serif;
+  font-family: 'Rubik', sans-serif;
 }
+
 
 @import url(https://fonts.googleapis.com/css?family=Patua+One&display=swap);
 .home_btn_font{
     font-family: 'Patua One', cursive;
 }
 
-
   /**/
 
   /* FONT FOR PRODUCT PAGE */
-@import url(https://fonts.googleapis.com/css?family=Public+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap);
 .product_punch_line{
-    font-family: 'Patua One', cursive;
+  font-family: 'Baloo Bhai', cursive;
 }
   /**/
 

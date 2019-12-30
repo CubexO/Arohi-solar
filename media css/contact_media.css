@@ -9,11 +9,6 @@
         color: white;
         font-size: 25px;  
     }
-    .contact_grid_icon{
-        position: absolute;
-        top:-30px;
-        left: 120px;
-    }
     .contact_icon{
         width: 90px;
     } 
@@ -27,11 +22,6 @@
         color: white;
         font-size: 25px;  
     }
-    .contact_grid_icon{
-        position: absolute;
-        top:-30px;
-        left: 75px;
-    }
     .contact_icon{
         width: 90px;
     } 
@@ -43,11 +33,6 @@
     .contact_tagline{
         color: white;
         font-size: 25px;  
-    }
-    .contact_grid_icon{
-        position: absolute;
-        top:-30px;
-        left: 75px;
     }
     .contact_icon{
         width: 90px;
@@ -61,11 +46,6 @@
         color: white;
         font-size: 22px;  
     }
-    .contact_grid_icon{
-        position: absolute;
-        top:-30px;
-        left: 225px;
-    }
     .contact_icon{
         width: 90px;
     }
@@ -77,11 +57,6 @@
     .contact_tagline{
         color: white;
         font-size: 15px;  
-    }
-    .contact_grid_icon{
-        position: absolute;
-        top:-7px;
-        left: 170px;
     }
     .contact_icon{
         width: 80px;
@@ -95,11 +70,6 @@
         color: white;
         font-size: 18px;  
     }
-    .contact_grid_icon{
-        position: absolute;
-        top:-20px;
-        left: 160px;
-    }
     .contact_icon{
         width: 90px;
     } 
@@ -111,11 +81,6 @@
     .contact_tagline{
         color: white;
         font-size: 16px;  
-    }
-    .contact_grid_icon{
-        position: absolute;
-        top:-30px;
-        left: 145px;
     }
     .contact_icon{
         width: 90px;
@@ -129,11 +94,6 @@
         color: white;
         font-size: 15px;  
     }
-    .contact_grid_icon{
-        position: absolute;
-        top:-7px;
-        left: 145px;
-    }
     .contact_icon{
         width: 70px;
     }  
@@ -145,11 +105,6 @@
     .contact_tagline{
         color: white;
         font-size: 13px;  
-    }
-    .contact_grid_icon{
-        position: absolute;
-        top:-7px;
-        left: 125px;
     }
     .contact_icon{
         width: 70px;
