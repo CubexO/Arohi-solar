@@ -78,40 +78,28 @@
                 <!-- HOME PAGE -->
     <!------------------------------------------->
     <div class="container-fluid p-0" id="home">
-     
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top stroke navbar_color_control" id="mainNav">
+      
+      <div class="container">
+      <nav id="main-nav" class="navbar navbar-expand-md navbar-dark fixed-top stroke navbar_color_control">
+       
             <!-- Brand -->
             <a class="navbar-brand" href="#"><img src="images/logotest3.png" class="logo_control"></a>
 
-            <!-- Toggler/collapsibe Button -->
-                <!--  -->
-                <span class="nav_open_btn mr-2" onclick="openNav()"><i class="fa fa-bars" style="color: white; font-size: 40px;"></i></span>
+            <span class="nav_open_btn mr-2" onclick="openNav()"><i class="fa fa-bars" style="color: white; font-size: 40px;"></i></span>
             </button>
 
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto ul_o">
-                    <li class="nav-item"></li>
-                        <a class="nav-link ml-3" href="#home"><h5 class="home_active_list nav_bar_font">HOME</h5></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-3" href="#PRODUCTS"><h5 class="all_nav_list nav_bar_font">PRODUCTS</h5></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-3" href="#portfolio"><h5 class="all_nav_list nav_bar_font">PORTFOLIO</h5></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-3" href="#about"><h5 class="all_nav_list nav_bar_font">ABOUT US</h5></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-3" href="#contact_us"><h5 class="all_nav_list nav_bar_font">CONTACT US</h5></a>
-                    </li>
-
-                        <a class="nav-link ml-3" href="#"><i class="fa fa-circle-thin" style="font-size:40px; color: transparent;"></i></a>
-
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ul_control">
+                    <li class="nav-item"><a class="nav-link link_size" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link link_size" href="#Product">PRODUCTS</a></li>
+                    <li class="nav-item"><a class="nav-link link_size" href="#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link link_size" href="#about_us">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link link_size" href="#contact_us">CONTACT US</a></li>
                 </ul>
-            </div>
-        </nav>
+            </div> 
+    </nav>
+  </div>
+   
         <!-- background image  -->
     <div class="container-fluid index_img ">
       <div class="container-fluid margin_control"></div>
@@ -137,7 +125,7 @@
     <!------------------------------------------->
                    <!--PRODUCTS-->
     <!------------------------------------------->
-    <div id="PRODUCTS" class="container-fluid product_BG_img" style="width: 100%; height: auto;"
+    <div id="Product" class="container-fluid product_BG_img" style="width: 100%; height: auto;"
     
     data-aos="fade-zoom-in"
      data-aos-easing="ease-in-sine"
@@ -256,11 +244,11 @@
       <div class="row">
           <div class="col-md-6 p-2" style="height: auto;">
               <div class="container-fluid d-flex justify-content-center align-items-center" style="height: auto; border: 10px solid white; background:#CDCAC5;">
-                  <div class="container-fluid p-4">
+                  <div class="container-fluid p-3">
                   <h2 class="portfolio_note_aarohi">AAROHI SOLAR </h2>
-                  <h5 class="text-justify portfolio_text_note_aarohi" >We Deliver The Best Solar Solution For You, No Matter If You Want To Power The Home, Business Or A Commercial Place. We Are Always Happy To Provide You With The Best Solution.</h5>
+                  <h6 class="text-justify portfolio_text_note_aarohi" >We Deliver The Best Solar Solution For You, No Matter If You Want To Power The Home, Business Or A Commercial Place. We Are Always Happy To Provide You With The Best Solution.</h6>
                   <a href="#about">
-                  <button class="btn btn-danger btn-lg mt-3" style="border-radius: 0px;">Explore Now</button>
+                  <button class="btn btn-danger btn-lg mt-3" style="border-radius: 0px;">EXPLORE NOW</button>
                 </a>
                   </div>
               </div>
@@ -277,7 +265,7 @@
             </div>
         </div>
         <div class="col-md-3">
-           <div class="container-fluid p-1"><div class="content portfolio_grid_light" style="height:142px; border: 10px solid white;">
+           <div class="container-fluid p-1"><div class="content portfolio_grid_light" style="height:110px; border: 10px solid white;">
               <div class="content-overlay"></div>
 
               <div class="content-details fadeIn-bottom">
@@ -286,7 +274,7 @@
               </div>
             </a>
           </div></div>
-           <div class="container-fluid p-1"><div class="content portfolio_grid_villeage" style="height:142px; border: 10px solid white;">
+           <div class="container-fluid p-1"><div class="content portfolio_grid_villeage" style="height:110px; border: 10px solid white;">
               <div class="content-overlay"></div>
 
               <div class="content-details fadeIn-bottom">
@@ -304,7 +292,7 @@
          <div class="container">
         <div class="row">
           <div class="col-md-5 p-2">
-              <div class="content portfolio_grid_powergrid" style="height:270px; border: 10px solid white;">
+              <div class="content portfolio_grid_powergrid" style="height:170px; border: 10px solid white;">
                     <div class="content-overlay"></div>
 
                     <div class="content-details fadeIn-bottom">
@@ -346,7 +334,7 @@
     <!------------------------------------------->
                    <!--ABOUT US-->
     <!------------------------------------------->
- <div id="about" class="container-fluid about_us_bg"
+ <div id="about_us" class="container-fluid about_us_bg"
  
  data-aos="fade-zoom-in"
      data-aos-easing="ease-in-sine"
@@ -357,19 +345,19 @@
      <div class="container about_us_col_img d-flex justify-content-center align-items-center">
          <span>
          <h2 class="page_heading text-center">ABOUT US</h2>
-<h5 class="text-center about_us_tagline">Always tell the customer what to do next.</h5>
+<h5 class="text-center about_us_tagline">Always Tell The Customer What To Do Next.</h5>
              </span>
      </div>
 <div class="container mt-3">
     <div class="row">
-        <div class="col-md-7 p-3" style="background-color:#E8E8EA;border: 10px solid white;">
+        <div class="col-md-7 p-2" style="background-color:#E8E8EA;border: 10px solid white;">
             <div class="container-fluid">
             <h3 class="about_heading_text pt-3">ABOUT OUR TECHNOLOGIES</h3>
             <h5 class="about_sub_text">Solar Power For Home</h5>
              <h5 class="about_sub_text">Solar Power For Business</h5>
                 <hr>
             <h3 class="about_heading_text pt-2" style="font-family: 'Acme', sans-serif;">MANAGING SOLAR ENERGY SAVING</h3>
-            <h5 class="about_sub_text">CONTACT US-</h5>
+           
             <h5 class="about_sub_text">To obtain benefits of the Best solution of power.</h5>
              <h5 class="about_sub_text">To obtain the most suitable installation of solar plant.</h5>
             <h5 class="about_sub_text">To provide you the maintenance of the installed plant.</h5>
@@ -377,8 +365,8 @@
         </div>
         <div class="col-md-5 d-flex justify-content-center align-items-center about_us_grid_img">
           <span class="about_btn">
-            <a class="btn btn-warning btn-lg" style="border-radius: 0px;" href="#contact_us">Get in touch</a>
-          </span c>
+            <a class="btn btn-warning btn-lg" style="border-radius: 0px;color: white;" href="#contact_us">GET IN TOUCH</a>
+          </span>
         </div>
     </div>
     <div class="container-fluid aboutus_bottom_margin"></div>
@@ -400,11 +388,11 @@
    <div class="container-fluid d-flex justify-content-center align-items-center p-4">
        <span>
                 <h1 class="text-center page_heading">CONTACT US</h1>
-       <h4 class="contact_tagline" >Get in touch and let us know we can help.</h4>
+       <h4 class="contact_tagline" >Get In Touch And Let Us know We Can Help.</h4>
            </span>
    </div>
   </div>
-     <div class="container-fluid" style="height: 40px;"></div>
+     <div class="container-fluid" style="height: 20px;"></div>
 <!-- contact grid-->
     <div class="container">
   <div class="row">
@@ -450,11 +438,11 @@
           <img src="images/mail-red_icon.png" class="mx-auto d-block contact_icon" alt="">
         </div> 
             <h4 class="text-center contact_card_font_heading">message</h4>
-           <h6 class="text-center mt-4 contact_card_font_sub">Mail : Aarohisolars@Gmail.Com</h6>
-           <h6 class="text-center contact_card_font_sub">facebook : Aarohisolars</h6>
+           <h6 class="text-center mt-4 contact_card_font_sub">Mail : aarohisolars@gmail.com</h6>
+           <h6 class="text-center contact_card_font_sub">facebook : Aarohi Solars </h6>
            <!-- btn   -->
             <div class="container-fluid text-center">
-            <a class="btn btn-danger btn-md mt-3" href="mailto: Aarohisolars@Gmail.Com">Send Now</a>
+            <a class="btn btn-danger btn-md mt-3" href="mailto: aarohisolars@gmail.com">Send Now</a>
                 <div class="container-fluid" style="height: 50px;"></div>
             </div>
                     <!--   -->
@@ -506,80 +494,13 @@
               <!-- row 1 -->
       <div class="col-md-6">
         <div class="row">
-          <div class="col-6">
-            <table class="table table-borderless" style="background-color: transparent;">
-       <thead>
-         <tr>
-           <th class="footer_table_heading">HOME</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr>
-           <td><a class="footer_link text-decoration-none" href="#">PRODUCT</a></td>
-         </tr>
-         <tr>
-             <td><a class="footer_link text-decoration-none" href="#">PORTFOLIO</a></td>
-         </tr>
-       </tbody>
-     </table>
-           </div>
-           <div class="col-6">
-            <table class="table table-borderless" style="background-color: transparent;">
-       <thead>
-         <tr>
-           <th class="footer_table_heading">WORK</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr>
-             <td><a class="footer_link text-decoration-none" href="#">SERVICE</a></td>
-         </tr>
-         <tr>
-             <td><a class="footer_link text-decoration-none" href="#">NEWS & BLOG</a></td>
-         </tr>
-       </tbody>
-     </table>
-           </div>
+          
         </div>
       </div>
                 <!-- row  -->
       <div class="col-md-6">
         <div class="row">
-          <div class="col-6">
-            <table class="table table-borderless" style="background-color: transparent;">
-       <thead>
-         <tr>
-           <th class="footer_table_heading ">PROJECT</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr>
-           <td><a class="footer_link text-decoration-none" href="#">Industrial</a></td>
-         </tr>
-         <tr>
-           <td><a class="footer_link text-decoration-none" href="#">Commercial</a></td>
-         </tr>
-       </tbody>
-     </table>
-           </div>
-
-          <div class="col-6">
-            <table class="table table-borderless" style="background-color: transparent;">
-       <thead>
-         <tr>
-           <th class="footer_table_heading">ABOUT</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr>
-             <td><a class="footer_link text-decoration-none" href="#">INFO</a></td>
-         </tr>
-         <tr>
-           <td><a class="footer_link text-decoration-none" href="#">2013-2020</a></td>
-         </tr>
-       </tbody>
-     </table>
-           </div>         
+               
         </div>
       </div>
   
@@ -652,7 +573,7 @@
 	  }
     // page4
     if (scroll > 2900) {
-	    $(".all_nav_list").css("color" , "black");
+	    $(".all_nav_list").css("color" , "white");
 	  }
 	  }
 
@@ -682,5 +603,22 @@
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+  </script>
+  <script>
+    $(document).ready(function () {
+
+// Scroll spy
+$('body').scrollspy({
+    target: "#main-nav"
+});
+
+// Navbar fade
+changeNavbar();
+
+$(window).scroll(function () {
+    changeNavbar();
+});
+
+});
   </script>
 </html>

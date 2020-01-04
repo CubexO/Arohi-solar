@@ -18,7 +18,7 @@
      background-repeat: no-repeat;
      /*background-attachment: fixed;*/
      width: 100%;
-     height: 300px;
+     height: 250px;
      border: 10px solid white;
 }
 .aboutus_font_heading{
@@ -35,7 +35,7 @@
      border: 10px solid white;
 }
 .aboutus_top_margin{
-    height: 100px;  
+    height: 105px;  
 }
 .aboutus_bottom_margin{
     height: 100px;  
@@ -47,7 +47,9 @@
     font-size: 17px;
     font-family: 'Acme', sans-serif;
 }
+@import url(https://fonts.googleapis.com/css?family=Merriweather&display=swap);
 .about_sub_text{
-    font-size: 16px;
-    font-family: 'Courgette', cursive;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    
 }
