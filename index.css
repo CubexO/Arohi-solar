@@ -1,0 +1,100 @@
+#loading{
+  width: 100%;
+  height: 100%;
+  background: #ffffff url("../images/aarohsol.gif");
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  position: fixed;
+  z-index: 9999;
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+/**/
+.home_active_list{
+    color: yellow;
+}
+.all_nav_list{
+    color: white;
+}
+.all_nav_list_changed{
+    color: black;
+}
+.navbar_color_control{
+  background:transparent;
+}
+.navbar_color_changed{
+  background:#E7EBDD;
+}
+.ul_control{
+    margin-top: 10px;
+}
+.index_img{
+    background-image:url(../images/homebg_compress43.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    width: 100%;
+    height: auto;
+}
+/* Carousel image */
+
+  /* bg font */
+  .index_bg_font{
+      font-size: 75px;
+      color: white;
+      font-family: 'Abril Fatface', cursive;
+  }
+ .index_bg_sub_font{
+     font-size: 60px;
+ }
+ p{
+     color: white;
+     font-size: 20px;
+ }
+ 
+ .custom_control{
+     border: 1px solid red;
+ }
+/*CSS3 STROKE EFFECT*/
+
+
+.home_sub_text{
+    font-size: 20px;
+}
+.logo_control{
+  width: 150px;
+   height: 80px;
+   margin-left: 45px;
+}
+/*             footer  */
+.footer_link{
+    color: black;
+}
+.footer_table_heading{
+    color: black;
+}
+.margin_control{
+  height: 140px;
+}
+.home_btn_font{
+  font-size: 11px;
+  font-family: sans-serif;
+}
+.home_btn_font:hover{
+  color: white;
+}
+.front_page_text{
+  margin-left: 40px;
+}
+.link_size{
+  font-size: 20px;
+}
+
+.ul_control{
+  margin-right: 42px;
+}
